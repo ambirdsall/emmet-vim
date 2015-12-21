@@ -1471,6 +1471,8 @@ let s:emmet_settings = {
 \                    ."<html lang=\"${lang}\">\n"
 \                    ."<head>\n"
 \                    ."\t<meta charset=\"${charset}\">\n"
+\                    ."\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n"
+\                    ."\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n"
 \                    ."\t<title></title>\n"
 \                    ."</head>\n"
 \                    ."<body>\n\t${child}|\n</body>\n"
